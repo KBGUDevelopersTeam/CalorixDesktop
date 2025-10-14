@@ -21,3 +21,33 @@
 - `module_types` - классы контейнеры для передачи информации между модулями или же qml виджетами
 - `qml_module` - модули qml которые можно будет использовать в дальнейшем
 - `qml_widgets` - виджеты qml для отображения нескольких других виджетов, модулей и элементов
+
+
+## Получение проекта
+
+Клонированние репозитория
+
+```shell
+git clone https://github.com/KBGUDevelopersTeam/CalorixDesktop
+cd CalorixDesktop
+```
+
+**Создание виртуального окружения**
+
+```shell
+python -m venv .venv
+```
+
+**Активация окружения:**
+
+__Windows__: `.venv\\Scripts\\activate`
+
+__Linux__: `source .venv/bin/activate`
+
+
+**Установка зависимостей:**
+
+```shell
+pip install -r requirements.txt
+```
+
