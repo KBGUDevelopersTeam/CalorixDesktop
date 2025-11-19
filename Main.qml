@@ -7,7 +7,6 @@ Window {
     height: 600
     visible: true
     title: "Test window"
-    
-    
 
+    
 }

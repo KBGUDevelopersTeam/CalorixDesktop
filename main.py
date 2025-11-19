@@ -2,7 +2,6 @@ import sys
 from PyQt6.QtGui import QGuiApplication
 from PyQt6.QtQml import QQmlApplicationEngine
 
-
 def main():
     # Создаем приложение
     app = QGuiApplication(sys.argv)
