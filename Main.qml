@@ -1,28 +1,13 @@
-import QtQuick
-import QtQuick.Controls
+import QtQuick 6.9
+import QtQuick.Controls 6.9
 
 
 Window {
-    width: 300
-    height: 200
-    color: "lightblue"
+    width: 700
+    height: 600
     visible: true
     title: "Test window"
+    
+    
 
-    Text {
-        text: "Привет, QML!"
-        font.pixelSize: 24
-        anchors.centerIn: parent
-    }
-
-    Button {
-        text: "Кнопка"
-        anchors.bottom: parent.bottom
-        anchors.horizontalCenter: parent.horizontalCenter
-        anchors.bottomMargin: 20
-        
-        onClicked: {
-            console.log("Кнопка нажата!")
-        }
-    }
 }
