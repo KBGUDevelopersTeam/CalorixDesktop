@@ -1,6 +1,6 @@
 import sys
-from PySide6.QtWidgets import QApplication
-from PySide6.QtQml import QQmlApplicationEngine
+from PyQt6.QtWidgets import QApplication
+from PyQt6.QtQml import QQmlApplicationEngine
 
 app = QApplication(sys.argv)
 engine = QQmlApplicationEngine()
