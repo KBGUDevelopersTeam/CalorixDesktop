@@ -199,7 +199,7 @@ Item {
     // resource loaders
     FontLoader {
         id: zerove_regular
-        source: "../../resource/Fonts/Zerove-Regular.otf"
+        source: "../resource/Fonts/Zerove-Regular.otf"
     }
 
 

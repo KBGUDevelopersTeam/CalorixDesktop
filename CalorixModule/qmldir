@@ -1,0 +1,8 @@
+module CalorixModule
+
+singleton Theme 1.0 Theme.qml
+
+Auth 1.0 Auth.qml
+Menu 1.0 Menu.qml
+MenuItem 1.0 MenuItem.qml
+Decorator 1.0 Decorator.qml
